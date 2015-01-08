@@ -9,12 +9,12 @@ python ovxctl.py -n createSwitch 1 00:00:00:00:00:00:03:00
 
 #Create virtual port
 python ovxctl.py -n createPort 1 00:00:00:00:00:00:01:00 1
-python ovxctl.py -n createPort 1 00:00:00:00:00:00:01:00 5
+python ovxctl.py -n createPort 1 00:00:00:00:00:00:01:00 11
 
-python ovxctl.py -n createPort 1 00:00:00:00:00:00:02:00 5
-python ovxctl.py -n createPort 1 00:00:00:00:00:00:02:00 7
+python ovxctl.py -n createPort 1 00:00:00:00:00:00:02:00 11
+python ovxctl.py -n createPort 1 00:00:00:00:00:00:02:00 13
 
-python ovxctl.py -n createPort 1 00:00:00:00:00:00:03:00 5
+python ovxctl.py -n createPort 1 00:00:00:00:00:00:03:00 11
 python ovxctl.py -n createPort 1 00:00:00:00:00:00:03:00 2
 
 #Create virtual link
